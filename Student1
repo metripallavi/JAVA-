@@ -1,0 +1,63 @@
+
+class Student {
+	
+	// Data declaration>
+	
+	String fname;
+	String pname = "none yet"; 
+	String imm; 
+	String mobile;
+	int semester;
+		
+	//////////////////////
+	// Methods
+
+	Student ( String pname ) {
+		
+		System.out.println( this.pname );
+		
+		this.pname = pname;
+		
+		System.out.println( this.pname );	
+		
+	}
+
+	void setName( String n ) {
+		
+		pname = n;
+	}	
+	
+	String getName( ) {
+		
+		return pname;
+	}
+	
+	void showAddress() {
+		
+		System.out.println ( this );
+		
+	}
+	
+}  // end class
+
+//////////////////////////////////////////////////
+
+class Student1 {
+	
+	
+	public static void main(String [] args) {
+		
+		
+		
+		Student one = new Student( "Alisha" );
+		
+	   
+		
+		
+		
+		
+		
+		
+
+	}
+}

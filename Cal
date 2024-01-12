@@ -1,0 +1,14 @@
+class add{
+	void sub()
+	{
+		int i=5;
+		System.out.println(i);
+	}
+}
+
+class cal extends add{
+public static void main()
+{
+	
+}
+}
